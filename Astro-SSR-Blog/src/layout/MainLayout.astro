@@ -1,5 +1,8 @@
 ---
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+
+const { title="Tech-Blog Here!" } = Astro.props
 ---
 
 <!DOCTYPE html>
@@ -14,9 +17,11 @@ import Navbar from "../components/Navbar.astro";
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <title>Navbar First</title>
+    <title>{ title}</title>
   </head>
     <body>
         <Navbar />
+        <slot />
+        <Footer />
     </body>
 </html>
