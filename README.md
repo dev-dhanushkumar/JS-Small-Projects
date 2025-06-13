@@ -53,6 +53,8 @@ Card-matching memory game with scoring and timer.
 **Example Output:**  
 
 
+https://github.com/user-attachments/assets/1c54ad42-fa35-4499-aa45-f0e74af518fb
+
 ---
 
 ### **Mouseover-effect**
@@ -60,6 +62,7 @@ A visual UI effect triggered on mouse hover. Great for learning dynamic DOM mani
 
 **Example Output:**  
 
+https://github.com/user-attachments/assets/28a48382-d229-4465-8b8b-99cc2c44471f
 
 ---
 
@@ -68,14 +71,16 @@ Smooth scrolling with layered visual effect.
 
 **Example Output:**  
 
+https://github.com/user-attachments/assets/0db98366-503a-4f1d-9d1a-9e9699364e6a
 
 ---
 
 ### **Piano**
 A virtual piano built with HTML, CSS, and JavaScript that lets users play notes using their keyboard or mouse clicks.
 
-**Example Output:**  
+**Example Output:** 
 
+https://github.com/user-attachments/assets/c750b27e-cfcd-492a-be1c-072b44640a83
 
 ---
 
@@ -84,12 +89,20 @@ A fully responsive navigation bar that adapts across screen sizes—from desktop
 
 **Example Output:**  
 
+
+https://github.com/user-attachments/assets/c3dbbd7e-7eec-4b2e-9982-1b6f74a48c6b
+
 ---
 
 ### **Responsive-Sidebar**
 A collapsible sidebar layout that adjusts seamlessly between desktop and mobile views. Ideal for dashboards and admin panels.
 
 **Example Output:**  
+
+
+https://github.com/user-attachments/assets/7083a305-97d7-49c5-b3f1-048f3b7682cb
+
+
 
 
 ---
@@ -100,6 +113,8 @@ A simple implementation of the classic Rock-Paper-Scissors game. Users can play 
 **Example Output:**  
 
 
+https://github.com/user-attachments/assets/ccae1b9c-b2a1-4983-9a73-9be813dc0876
+
 ---
 
 ### **tic-tac-toe**
@@ -107,6 +122,21 @@ Classic Tic-Tac-Toe game for two players with win detection and reset functional
 
 **Example Output:**  
 
+https://github.com/user-attachments/assets/721106b2-84b4-460d-b731-4f05e16d59b2
 
 ---
 
+---
+
+### **Snake Game**
+A classic Snake game where players control a snake to eat food, grow longer, and avoid hitting the walls or themselves.
+
+**Example Output:**  
+
+
+https://github.com/user-attachments/assets/5b21b734-7d08-4876-ae3e-50736dc9352c
+
+
+
+
+---
