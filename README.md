@@ -30,10 +30,11 @@ Below you'll find a brief description and an example output video for each proje
 ---
 
 ### **todo-app**
+
 A classic To‑Do List using vanilla JS. Add, edit, mark done, and delete tasks.
-  
-**Example Output:**  
-[![Watch the video](https://github.com/user-attachments/assets/5b82908f-7af1-4766-8033-b26e6cfa9b5b)](https://github.com/user-attachments/assets/80687ee8-28ce-427a-840d-b2cff307ff5d)
+
+https://github.com/user-attachments/assets/05135958-adeb-4fb4-b457-0f884ece3c99
+
 
 ---
 
@@ -41,7 +42,10 @@ A classic To‑Do List using vanilla JS. Add, edit, mark done, and delete tasks.
 Basic arithmetic calculator with UI buttons and keyboard support.
 
 **Example Output:**  
-[![Calculator Demo](https://img.youtube.com/vi/VIDEO_ID_CALC/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_CALC)
+
+https://github.com/user-attachments/assets/bb32e18d-5150-4672-a7c7-c5ebdce549d8
+
+
 
 ---
 
