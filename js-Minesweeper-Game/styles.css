@@ -1,87 +1,60 @@
-body{
-    background-color: #FDF5E6;
-}
-.container{
-    align-content: center;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
+* {
+  box-sizing: border-box;
 }
 
-.grid{
-    height: 400px;
-    width: 400px;
-    flex-wrap: wrap;
-    display: flex;
-    background-color: #FFDAB9;
-    border: 10px solid #FFDAB9;
-    margin: auto;
-    margin-bottom: 20px;
+body {
+  margin: 0;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  flex-direction: column;
+  color: white;
 }
 
-h3{
-    font-family: 'Robiti Mono', monospace;
+.title {
+  margin: 20px;
 }
 
-div{
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Robiti Mono', monospace;
+.subtext {
+  color: #CCC;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
-.valid{
-    height: 40px;
-    width: 40px;
-    border: 5px solid;
-    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
-    box-sizing: border-box;
+.board {
+  display: inline-grid;
+  padding: 10px;
+  grid-template-columns: repeat(var(--size), 60px);
+  grid-template-rows: repeat(var(--size), 60px);
+  gap: 4px;
+  background-color: #777;
 }
 
-.checked{
-    height: 40px;
-    width: 40px;
-    border: 2px solid;
-    background-color: #cecab7;
-    border-color: #9c998d;
-    box-sizing: border-box;
+.board > * {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #BBB;
+  user-select: none;
 }
 
-.bomb{
-    height: 40px;
-    width: 40px;
-    border: 5px solid;
-    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
-    box-sizing: border-box;
+.board > [data-status="hidden"] {
+  background-color: #BBB;
+  cursor: pointer;
 }
 
-.one{
-    color: #e76346;
-}
-  
-.two{
-    color: #4199d3;
-}
-  
-.three{
-    color: #57da59;
-}
-  
-.four{
-    color: #bb41d3;
-}
-  
-#result{
-    margin-top: 5px;
-    color: #e76346;
+.board > [data-status="mine"] {
+  background-color: red;
 }
 
-.button {
-    margin-top: 15px;
-    font-size: 15px;
-    background-color: #f0c14b;
-    height: 30px;
-    width: 150px;
-    cursor: pointer;
-    border: none;
-    font-family: 'Robiti Mono', monospace;
+.board > [data-status="number"] {
+  background-color: none;
+}
+
+.board > [data-status="marked"] {
+  background-color: yellow;
 }
