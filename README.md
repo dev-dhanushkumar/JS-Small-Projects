@@ -33,7 +33,7 @@ Below you'll find a brief description and an example output video for each proje
 A classic To‑Do List using vanilla JS. Add, edit, mark done, and delete tasks.
   
 **Example Output:**  
-[![To-Do App Demo](https://img.youtube.com/vi/VIDEO_ID_TODO/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_TODO)
+[![Watch the video](https://github.com/user-attachments/assets/5b82908f-7af1-4766-8033-b26e6cfa9b5b)](https://github.com/user-attachments/assets/80687ee8-28ce-427a-840d-b2cff307ff5d)
 
 ---
 
